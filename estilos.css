@@ -33,7 +33,7 @@ header{
 footer{
   margin-bottom: 20px;
 }
-.central_container{
+.contenedor_centro{
   width: 80%;
   height: 700px auto;
   background: #b5bdc8;
@@ -70,7 +70,6 @@ footer{
 .item_menu:hover{
   font-size: 26px;
 }
-
 #back{
   font-family: monospace;
 }
@@ -79,10 +78,9 @@ footer{
   height: 250px;
   background-image: url('fotos/toyota-gt86-2016.png');
   background-position: bottom;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
  }
-
 .titulo_pagina{
   width: 100%;
   height: 60px;
@@ -111,11 +109,9 @@ footer{
   width: 150px;
   padding: 30px;
 }
-
 #imagen_derecha.imagen_auto{
   text-align: right;
 }
-
 .carro_marca{
   width: 90%;
   height:1300px;  
@@ -130,7 +126,6 @@ footer{
   padding: 20px;
   align-items: center;
 }
-
 #tabla_carros #fila_carro {
   border-spacing: 32px;
   height: 250px;
@@ -138,7 +133,6 @@ footer{
 .fotocentro{
   display: none;
 }
-
 .fotocentro:target {
   position: fixed;
   background:black;
@@ -153,20 +147,16 @@ footer{
   flex-flow: column;
   width: 100%;
   height: 100%;
-  
+ 
 }
 .cerrarfoto{
-
   width: 25px;
   height: 25px;
   margin: 15px auto;
   text-align: right;;
   text-decoration: none;
-
   color: #ffffff;
   padding: 20px;
   border-radius: 5%;
   line-height: 25px;
-
 }
-
